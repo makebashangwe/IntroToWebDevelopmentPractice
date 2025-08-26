@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'starborn';
+    src: url('Starborn.otf') format('opentype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'thewriter';
+    src: url('The Writer.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'kindergarden';
+    src: url('kindergarten.ttf') format('truetype');
+}
+
+body{
+    background-color: #ffffb0;
+    text-align: center;
+    
+}
+p {
+        color: #583f04;
+        font-family: 'kindergarden', sans-serif;
+        font-size: 1.5rem;
+    }
+    
+h1{
+        color: #522B29;
+        font-size: 3.0rem;
+        font-family: 'starborn', sans-serif;
+
+    }
+h2{
+    color: #522B29;
+    font-size: 1.0rem;
+    font-family: 'starborn', sans-serif;
+    text-align: left;
+}
+h3{
+    color: #b27d00;
+    font-size: 1.0rem;
+    font-family: 'kindergarden', sans-serif;
+    text-align:left;
+}
